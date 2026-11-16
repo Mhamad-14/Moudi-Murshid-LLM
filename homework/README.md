@@ -1,9 +1,13 @@
-# Day 1 Homework: Real Model Demo
+# Murshid LLM - Homework
 
-This folder contains my Day 1 homework for the LLM Application Engineering course (SDA-AIE-213).
+This folder contains my homework assignments for the LLM Application Engineering course (SDA-AIE-213).
 
-The homework demonstrates how to generate an answer using the FLAN-T5 model instead of the predefined responses provided by FakeClient.
+## Day 1: Real Model Demo
 
-## Files
-- `day1_real_model.ipynb`: Google Colab notebook containing the model implementation and explanation.
-- `live_demo_result.json`: Generated model output.
+- **Model:** google/flan-t5-small
+- **Environment:** Google Colab (CPU)
+- **Task:** Generate an answer using a real language model and compare its behavior with FakeClient.
+
+### Files
+- `day1/day1_real_model.ipynb`: Model implementation and explanation.
+- `day1/live_demo_result.json`: Generated model output.
