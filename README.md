@@ -40,7 +40,7 @@ flowchart TD
     I --> J[Test results and metrics]
 ```
 
-The diagram summarizes the educational workflow. The Python code in the [cumulative notebook](notebooks/murshid.ipynb) is the source of implementation details.
+The diagram summarizes the educational workflow. The Python code in the [cumulative notebook](notebooks/Moudi_Murshid.ipynb) is the source of implementation details.
 
 ## Four-day project development
 
@@ -53,7 +53,7 @@ The diagram summarizes the educational workflow. The Python code in the [cumulat
 
 ## Run the core notebook
 
-1. Open [notebooks/murshid.ipynb](notebooks/murshid.ipynb) in Google Colab or a Python Jupyter environment.
+1. Open [notebooks/Moudi_Murshid.ipynb](notebooks/Moudi_Murshid.ipynb) in Google Colab or a Python Jupyter environment.
 2. Select Python 3.9 or newer and a CPU runtime.
 3. Run the cells from top to bottom. No API key, model download, GPU, or third-party Python package is required for the core project.
 4. Inspect the test summaries and the JSON files produced in the runtime's `murshid_outputs/` directory.
@@ -95,10 +95,10 @@ These exercises are **separate** from the cumulative mock project.
 
 | Day | Exercise | Notebook | Result |
 | --- | --- | --- | --- |
-| 1 | Generate a local real-model answer with FLAN-T5 small | [Day 1 notebook](homework/day1_real_model.ipynb) | [Day 1 result](results/day1/live_demo_result.json) |
-| 2 | Validate and dispatch structured read-only tool calls | [Day 2 notebook](homework/day2_tools.ipynb) | Printed in notebook |
-| 3 | Diagnose intentionally rejected inputs | [Day 3 notebook](homework/day3_errors.ipynb) | Printed in notebook |
-| 4 | Evaluate three paraphrases with a local real model | [Day 4 notebook](homework/day4_evaluation.ipynb) | [Day 4 result](results/day4/evaluation_result.json) |
+| 1 | Generate a local real-model answer with FLAN-T5 small | [Day 1 notebook](homework/day1_real_model_Moudi.ipynb) | [Day 1 result](results/day1/live_demo_result.json) |
+| 2 | Validate and dispatch structured read-only tool calls | [Day 2 notebook](homework/day2_tools_Moudi.ipynb) | Printed in notebook |
+| 3 | Diagnose intentionally rejected inputs | [Day 3 notebook](homework/Moudi_day3_errors.ipynb) | Printed in notebook |
+| 4 | Evaluate three paraphrases with a local real model | [Day 4 notebook](homework/Moudi_day4_evaluation.ipynb) | [Day 4 result](results/day4/evaluation_result.json) |
 
 The real-model homework uses `google/flan-t5-small` locally on CPU and downloads its model and Python dependencies. The recorded Day 4 run produced 3/3 **keyword matches** for `reference` and `number`. This is not a semantic accuracy score. No external inference API calls were made.
 
