@@ -54,7 +54,7 @@ The recorded Day 4 evaluation contains 3/3 keyword hits. Manual review found the
 
 ## Reproduction and evidence
 
-Open [the core notebook](../notebooks/murshid.ipynb) in Python 3.9+ or Google Colab CPU and run its cells in order. No additional Python libraries or keys are necessary for the core. The notebook writes JSON files to `murshid_outputs/`, and the committed snapshots are in [results/core](../results/core/).
+Open [the core notebook](../notebooks/Moudi_Murshid.ipynb) in Python 3.9+ or Google Colab CPU and run its cells in order. No additional Python libraries or keys are necessary for the core. The notebook writes JSON files to `murshid_outputs/`, and the committed snapshots are in [results/core](../results/core/).
 
 The real-model homework notebooks need their own Colab CPU sessions with dependencies and downloaded weights. The Day 1 and Day 4 local inference reports are in [results/day1](../results/day1/) and [results/day4](../results/day4/).
 
