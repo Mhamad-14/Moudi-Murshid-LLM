@@ -7,7 +7,7 @@
 
 A small educational application for answering two synthetic public-service FAQs and handling fictional application-status requests. The project demonstrates how to build an application around a model-shaped interface while keeping input checks, authorization decisions, response validation, tests, and caching in Python.
 
-> **Important:** The four-day core project uses `FakeClient`, a deterministic mock, **not a trained language model**. The optional Day 1 and Day 4 homework exercises separately run `google/flan-t5-small` locally on CPU. Neither is a production government service.
+The main Murshid project uses `FakeClient`, a deterministic mock implementation designed to demonstrate LLM application engineering concepts. Homework Days 1 and 4 use `google/flan-t5-small`, a pretrained language model, to demonstrate real-model inference and evaluation on CPU. The project uses synthetic data and is intended for educational purposes.
 
 ## Project goals and intended users
 
@@ -89,7 +89,7 @@ The chart compares counts within one controlled mock experiment. It is not evide
 
 Additional results are in [results/core](results/core/) and the [final report](results/core/final_report.json). `metrics.json` contains execution-level metrics in milliseconds. The hypothetical cost estimate in the final report is illustrative and is not an actual charge.
 
-## Optional homework
+## Homework assignments
 
 These exercises are **separate** from the cumulative mock project.
 
