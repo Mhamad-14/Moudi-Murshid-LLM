@@ -46,7 +46,7 @@ For three identical public FAQ requests:
 
 The cache-hit sequence is `false`, `true`, `true`. Day 4 also reruns the ten-case mock suite, returning **10/10**. The mock-client call counts are deterministic experiment data, not real API cost reductions. The core uses no external inference API.
 
-## Optional independent homework
+## Homework
 
 Day 1 runs local `google/flan-t5-small` to demonstrate actual model generation. Day 2 checks seven simulated structured tool calls, including invalid calls and unauthorized access. Day 3 catches three intended Python validation exceptions and confirms a corrected question is accepted. Day 4 uses the same local model to generate answers for three synthetic FAQ paraphrases, recording token counts, measured inference time, and a reference-number keyword indicator.
 
