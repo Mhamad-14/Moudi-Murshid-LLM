@@ -1,4 +1,4 @@
-# Optional homework | Murshid Mini
+# Homework assignments | Murshid Mini
 
 These are four independent exercises from **LLM Application Engineering (SDA-AIE-213)**. They are separate from the cumulative core project in [notebooks/murshid.ipynb](../notebooks/murshid.ipynb).
 
