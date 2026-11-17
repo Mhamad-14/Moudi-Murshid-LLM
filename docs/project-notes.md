@@ -46,7 +46,7 @@ For three identical public FAQ requests:
 
 The cache-hit sequence is `false`, `true`, `true`. Day 4 also reruns the ten-case mock suite, returning **10/10**. The mock-client call counts are deterministic experiment data, not real API cost reductions. The core uses no external inference API.
 
-## Homework
+## Homework assignments
 
 Day 1 runs local `google/flan-t5-small` to demonstrate actual model generation. Day 2 checks seven simulated structured tool calls, including invalid calls and unauthorized access. Day 3 catches three intended Python validation exceptions and confirms a corrected question is accepted. Day 4 uses the same local model to generate answers for three synthetic FAQ paraphrases, recording token counts, measured inference time, and a reference-number keyword indicator.
 
@@ -56,7 +56,7 @@ The recorded Day 4 evaluation contains 3/3 keyword hits. Manual review found the
 
 Open [the core notebook](../notebooks/murshid.ipynb) in Python 3.9+ or Google Colab CPU and run its cells in order. No additional Python libraries or keys are necessary for the core. The notebook writes JSON files to `murshid_outputs/`, and the committed snapshots are in [results/core](../results/core/).
 
-The optional real-model notebooks need their own Colab CPU sessions with dependencies and downloaded weights. The Day 1 and Day 4 local inference reports are in [results/day1](../results/day1/) and [results/day4](../results/day4/).
+The real-model homework notebooks need their own Colab CPU sessions with dependencies and downloaded weights. The Day 1 and Day 4 local inference reports are in [results/day1](../results/day1/) and [results/day4](../results/day4/).
 
 ## Limitations and possible improvement
 
